@@ -1,0 +1,296 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #86EBDF !important;
+}
+
+.navbar .nav-link {
+  color: #000000 !important;
+  font-size: 18px !important;
+}
+
+.navbar .nav-link:hover {
+  background-color: #0a849a !important;
+  color: #ffffff !important;
+}
+
+
+.titulo {
+  color: #6085CD;
+  font-size: 105px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.subtitulo {
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  width: 300px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  size: cover;
+  object-fit: cover; 
+}
+
+.parrafo {
+  font-size: 25px;
+  text-align: center;
+  margin: 0px;
+}
+
+.teesperamos {
+  font-size: 30px;
+  color: #6085CD;
+  text-align: center;
+  margin-top: 5px;
+}
+
+footer {
+  background-color: #86EBDF;
+  text-align: center;
+  padding: 18px;
+}
+
+.mision, .vision, .valores {
+  background-color: #E6FCFB;
+  border: 1px solid #b6b1b1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 1300px;
+}
+
+.mision h3, .vision h3, .valores h3 {
+  font-size: 30px;
+  color: #6085CD;
+  margin: auto;
+  text-align: center;
+}
+
+.mision p, .vision p, .valores ul {
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.entrenamiento h3, .asesoramiento h3, .grupos h3, .coaching h3 {
+  font-size: 30px;
+  color: #6085CD;
+  text-align: center;
+}
+
+.entrenamiento, .asesoramiento, .grupos, .coaching {
+  background-color: #E6FCFB;
+  border: 1px solid #b6b1b1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 1300px;
+  text-align: center;
+}
+
+.entrenamiento p, .asesoramiento p, .grupos p, .coaching p {
+  font-size: 20px;
+}
+
+.contact {
+  background-color: #E6FCFB;
+  border: 1px solid #b6b1b1;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  max-width: 1000px;
+  max-height: 1000px;
+  text-align: center;
+}
+
+.contacto {
+  font-size: 50px;
+  margin: 0;
+  color: #6085CD;
+}
+
+.contact h3 {
+  font-size: 25px;
+  color: #6085CD;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .titulo {
+    font-size: 80px;
+  }
+
+  .subtitulo {
+    font-size: 30px;
+  }
+
+  .image-gallery img {
+    width: calc(25% - 20px);
+    height: auto;
+  }
+
+  .parrafo {
+    font-size: 20px;
+  }
+
+  .teesperamos {
+    font-size: 25px;
+  }
+
+  .mision h3, .vision h3, .valores h3, .entrenamiento h3, .asesoramiento h3, .grupos h3, .coaching h3 {
+    font-size: 25px;
+  }
+
+  .mision p, .vision p, .valores ul, .entrenamiento p, .asesoramiento p, .grupos p, .coaching p {
+    font-size: 18px;
+  }
+
+  .contact {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titulo {
+    font-size: 60px;
+  }
+
+  .image-gallery {
+    margin-top: 30px;
+  }
+
+  .image-gallery img {
+    width: calc(50% - 20px);
+    height: auto;
+  }
+
+  .parrafo {
+    font-size: 18px;
+  }
+
+  .teesperamos {
+    font-size: 22px;
+  }
+
+  .footer {
+    padding: 5px;
+  }
+
+  .mision, .vision, .valores, .entrenamiento, .asesoramiento, .grupos, .coaching {
+    padding: 12px;
+  }
+
+  .mision p, .vision p, .valores ul, .entrenamiento p, .asesoramiento p, .grupos p, .coaching p {
+    font-size: 17px;
+  }
+
+  .contact {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .contacto {
+    font-size: 45px;
+  }
+  
+  .contact h3 {
+    font-size: 20px;
+  }  
+}
+
+@media screen and (max-width: 576px) {
+  .titulo {
+    font-size: 54px;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .image-gallery img {
+    width: calc(50% - 0px);
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .subtitulo {
+    font-size: 18px;
+  }
+
+  .parrafo {
+    font-size: 16px;
+  }
+
+  .teesperamos {
+    font-size: 18px;
+  }
+
+  .footer {
+    padding: 0px;
+  }
+
+  .mision, .vision, .valores, .entrenamiento, .asesoramiento, .grupos, .coaching {
+    padding: 6px;
+  }
+
+  .mision h3, .vision h3, .valores h3, .entrenamiento h3, .asesoramiento h3, .grupos h3, .coaching h3 {
+    font-size: 22px;
+  }
+
+  .mision p, .vision p, .valores ul, .entrenamiento p, .asesoramiento p, .grupos p, .coaching p {
+    font-size: 15px;
+  }
+
+  .contacto {
+    font-size: 38px;
+  }
+  
+  .contact p {
+    font-size: 20px;
+  }
+
+  .contact h3 {
+    font-size: 20px;
+  }  
+}
